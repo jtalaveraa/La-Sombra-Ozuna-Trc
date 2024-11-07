@@ -1,10 +1,13 @@
 <?php
 class Database
-{
+{  
+    // (S) RESPONSABILIDAD ÚNICA
+    // (0) ABIERTO-CERRADO
+
     private $PDOlOCAL; // Si pones esta variable en null se cierra
     private $user = 'root';
     private $password = '';
-    private $server = "mysql:host=localhost;dbname=estancia_infantil"; // Ajuste de espacio en blanco
+    private $server = "mysql:host=localhost;dbname=la_sombra"; 
         
     function conectarBD()
     {
