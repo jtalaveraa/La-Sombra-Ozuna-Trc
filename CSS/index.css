@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px; 
+    width: 100%; 
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 2px green;
+}
+
+.container:hover {
+    box-shadow: 0 0 15px green;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.age-warning {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 170px;
+    height: 50px;
+    transition: background-color 0.3s ease; 
+}
+
+.entrar {
+    background-color: #009009;
+    color: white;
+}
+
+.entrar:hover {
+    background-color: #00cc00; 
+}
+
+.salir {
+    background-color: lightslategray;
+    color: white;
+}
+
+.salir:hover {
+    background-color: darkslategray; 
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 40px;
+        border-radius: 20px;
+    }
+
+    .logo {
+        font-size: 1.5em;
+    }
+
+    .logo img {
+        width: 60%;
+    }
+
+    button {
+        width: 100%; 
+        font-size: 0.9em;
+        padding: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

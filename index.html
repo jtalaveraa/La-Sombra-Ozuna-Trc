@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA SOMBRA - OZUNA TRC</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo"><img src="IMG/sombra-logo.jpg" alt=""></div>
+        <div class="age-warning">Este sitio es para mayores de 18 años</div>
+        <div class="buttons">
+            <button onclick="irAOtraPagina()" class="entrar">Sí, entrar</button>
+            <button onclick="salirDeLaPagina()" class="salir">No, regresar</button>
+        </div>
+    </div>
+    <script>
+        function irAOtraPagina() {
+            // Redireccionar a otra página
+            window.location.href = 'VIEWS/iniciov2.php';
+        }
+
+        function salirDeLaPagina() {
+            // Cerrar la ventana actual
+            window.close();
+        }
+    </script>
+</body>
+
+</html>

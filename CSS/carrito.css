@@ -1,0 +1,169 @@
+/*TODO*/
+*{
+    scroll-behavior: smooth;
+}
+
+/*HEADER*/
+#body-burger{
+    background-color: black;
+    text-align: center;
+}
+
+.offcanvas-header{
+    background-color: black;
+}
+
+.offcanvas-header .logo{
+    text-align: center;
+}
+
+#contenedor-todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;    
+    width: 100%;
+    position: fixed;
+    border-bottom-style: solid;
+    border-width: 1px;
+    height: 85px;
+
+}
+
+#confirmar{
+    width: 50%;
+}
+
+#buscar{
+    width: 325px
+}
+.header{
+    height: 75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;    
+    width: 103%;
+    position: fixed;
+    border-bottom-style: solid;
+    border-width: 1px;
+}  
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.logo img{
+    width: 55%;
+    height: auto;
+}
+
+.navbar{
+    align-items: center;
+    padding-left: 40px;
+    height: 13%;
+}
+
+.contacto{
+    margin-top: 62%;
+}
+
+.contacto p{
+    padding-left: 28px;
+}
+
+.contacto p:hover{
+    color: green;
+}
+
+.navbar a{
+    padding-right: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar li{
+    padding-left: 30px;
+}
+.navbar a:hover{
+    color: green;
+}
+.user-cart{
+    align-items: center;
+}
+.user-cart a{
+    margin-left: 7px;
+    padding-left: 20px;
+}
+.user-cart img{
+    height: 25px;
+}
+/*Footer*/
+.rs{
+    align-items: center;
+}
+.rs a img{
+    height: 20px;
+}
+.footer {
+    text-align: center;
+    padding: 30px;
+}
+.footer p {
+    font-size: 14px;
+    margin: 0;
+}
+/**/
+body {
+    background-color: #111111;
+    color: white;
+}
+#productos {
+    padding-top: 150px;
+}
+.cart-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+.cart-item img {
+    width: 200px;
+    max-height: 200px;
+    margin-right: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cart-item-price, .cart-item-quantity, .cart-item-total {
+    text-align: center;
+    flex: 0 0 100px;
+}
+.cart-item:last-child {
+    border-bottom: none;
+}
+.cart-total {
+    padding: 15px 0;
+    text-align: center;
+}
+.cart-total .btn {
+    width: 100%;
+}
+.container{
+    margin-top: 100px;
+}
+.sel-suc{
+    margin: 20px 0;
+    text-align: center;
+}
+/*Car*/
+.col-sm-12{
+    align-items: center;
+    text-align: center;
+}
+.btn-outline-dark{
+    background-color: green;
+}

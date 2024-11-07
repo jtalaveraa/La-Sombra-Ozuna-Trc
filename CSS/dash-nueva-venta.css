@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card img {
+    height: 150px;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 1rem;
+}
+.card-text {
+    margin-bottom: 10px;
+}
+.card-footer {
+    background-color: white;
+}
+.btn-success {
+    width: 100%;
+}

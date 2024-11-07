@@ -1,0 +1,295 @@
+body {
+    background-color: #f8f9fa;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+img{
+    width: 150px;
+}
+.sidebar a {
+    color: black;
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.sidebar a:hover {
+    background-color: limegreen;
+}
+.container-fluid{
+    margin-top: 80px;
+}
+/*sesion*/
+.usuario-info {
+    padding: 15px;
+    border-top: 3px solid #1b3a1b;
+    background-color: transparent;
+    color: #333;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.logout-icon {
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.logout-icon:hover {
+    color: #e74c3c;
+}
+
+
+/*Burger*/
+#body-burger{
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.offcanvas-header{
+    background-color: #f8f9fa;
+}
+
+.offcanvas-header .logo{
+    text-align: center;
+}
+
+#contenedor-todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa;    
+    width: 100%;
+    position: fixed;
+    border-bottom-style: solid;
+    border-width: 1px;
+    height: 85px;
+
+}
+
+.header{
+    height: 75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;    
+    width: 103%;
+    position: fixed;
+    border-bottom-style: solid;
+    border-width: 1px;
+}  
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.logo img{
+    width: 55%;
+    height: auto;
+}
+
+.navbar{
+    align-items: center;
+    padding-left: 40px;
+    height: 13%;
+}
+
+.navbar a{
+    padding-right: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar li{
+    padding: 10px;
+}
+.navbar .nav-link:hover{
+    background-color: limegreen;
+}
+.nav-link{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/*forms*/
+.forms{
+    padding: 0 10px;
+    width: 100%;
+}
+input{
+    padding: 0 20px;
+}
+.boton{
+    width: 100%;
+    margin-left: 5px;
+}
+
+/*modal*/
+/* Encapsula todos los estilos del modal dentro de una clase específica */
+.modal-content .form-group input[type="text"],
+.modal-content textarea,
+.modal-content select,
+.modal-content input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.modal-content label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Asegúrate de que los estilos generales del modal estén dentro de su contenedor */
+.modal-content {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.modal-content .modal-header {
+    border-bottom: 1px solid #dee2e6;
+    background-color: #343a40;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-content .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.modal-content .modal-body {
+    padding: 20px;
+}
+
+.modal-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.modal-content .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.modal-content .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.modal-content .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.modal-content .btn-secondary:hover {
+    background-color: #5a6268;
+}
+/*Tabla*/
+.tabla{
+    padding: 30px;
+    
+    overflow-x: unset;
+    width: 100%;
+}
+.tabla th, .tabla td {
+    padding: 1px; 
+       
+    text-align: left; 
+    word-wrap: break-word;
+}
+h2{
+    padding-left: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="number"],
+.form-group input[type="datetime"],
+select.form-select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#btnregistrar{
+    background-color: rgb(30, 143, 30);
+    color: white;
+    
+}
+#btnresgistrar:hover{
+        background-color: green;
+        color: white;
+        
+}
+
+#regprod{
+    background-color: rgb(30, 143, 30);
+    color: white;
+    
+    }
+    #regprod:hover{
+        background-color: green;
+        color: white;
+        
+        }
+    
+        .pagination .page-item .page-link {
+            color: #28a745; 
+            background-color: white; 
+            border: 1px solid #28a745;
+        }
+        
+        .pagination .page-item .page-link:hover {
+            color: white; 
+            background-color: #28a745; 
+            border-color: #218838;
+        }
+        
+        .pagination .page-item.active .page-link {
+            color: white; 
+            background-color: #28a745;
+            border-color: #218838;
+        }

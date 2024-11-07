@@ -1,0 +1,134 @@
+/*Body*/
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.outer-container {
+    border: 2px solid rgb(0, 0, 0); 
+    width: 80%;
+    max-width: 400px; 
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    background-color: #000000; 
+    text-align: center;
+}
+
+.outer-container:hover {
+    border: 2px solid green;    
+    box-shadow: 0 0 15px green;
+}
+
+.container .logo {
+    width: 50%;
+    margin-bottom: 20px;
+}
+.input-container:first-of-type {
+    margin-bottom: 20px; /* Este margen afectará solo al primer input-container, que es el del nombre de usuario */
+}
+
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px !important; 
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.input-container input {
+    width: 80%;
+    padding: 8px 8px 8px 16px; 
+    border-radius: 8px; 
+    border: none;
+    font-size: 14px;
+    margin-bottom: 10px; 
+}
+
+
+.input-container .toggle-password {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;  
+    height: 20px; 
+}
+
+.container button {
+    cursor: pointer;
+    width: 80%;
+    padding: 8px;
+    border: none;
+    background-color: green;
+    box-shadow: 1 2px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; 
+}
+input[type="text"] {
+    width: 80%; 
+    padding: 8px 8px 8px 16px; 
+    border-radius: 8px;
+    margin-bottom: 20px !important; 
+    border: none; 
+    font-size: 14px; 
+    box-shadow: none; 
+    outline: none; 
+}
+
+.container button:hover {
+    background-color: #2ecc71;
+}
+
+.container .create-account, .back {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.create-account:hover, .back:hover {
+    color: white;
+}
+
+.p-back {
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .outer-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .container .logo {
+        width: 60%;
+    }
+
+    .container button {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .input-container input {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
+#crear{
+    text-decoration: underline;
+}
+
+#regre{
+    color: #2ecc71;
+}

@@ -1,0 +1,243 @@
+body {
+    background-color: #f8f9fa;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.content {
+    padding: 20px;
+}
+.card-custom {
+    margin-bottom: 20px;
+}
+/*sesion*/
+.usuario-info {
+    padding: 15px;
+    border-top: 3px solid #1b3a1b;
+    background-color: transparent;
+    color: #333;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.logout-icon {
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.logout-icon:hover {
+    color: #e74c3c;
+}
+/*Burger*/
+#body-burger{
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.offcanvas-header{
+    background-color: #f8f9fa;
+}
+
+.offcanvas-header .logo{
+    text-align: center;
+}
+
+#contenedor-todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa;    
+    width: 100%;
+    position: fixed;
+    border-bottom-style: solid;
+    border-width: 1px;
+    height: 85px;
+
+}
+
+.header{
+    height: 75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;    
+    width: 103%;
+    position: fixed;
+    border-bottom-style: solid;
+    border-width: 1px;
+}  
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.logo img{
+    width: 55%;
+    height: auto;
+}
+
+.navbar{
+    align-items: center;
+    padding-left: 40px;
+    height: 13%;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a{
+    padding-right: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar li{
+    padding: 10px;
+}
+.navbar .nav-link:hover{
+    background-color: limegreen;
+}
+.nav-link{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.forms{
+    margin-top: 100px;
+}
+/* Estilos del Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+.modal[style*="display: block"] {
+    display: block;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-contenido {
+    background-color: #f9f9f9;
+    margin: 5% auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+}
+
+.modal-contenido h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px dashed #000;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.modal-contenido p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.modal-contenido .table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.modal-contenido .table th, .modal-contenido .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px dashed #000;
+    font-size: 1.2em;
+}
+
+.modal-contenido .table th {
+    background-color: #f2f2f2;
+}
+
+.modal-contenido .table td {
+    text-align: right;
+}
+
+.modal-contenido .table tr:last-child td {
+    border-bottom: none;
+}
+
+.modal-contenido .btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.modal-contenido .btn:hover {
+    background-color: #555;
+}
+.btn-primary {
+    background-color: #198754;
+    border-color: #198754;
+    color: #fff;
+    padding: 4px;
+    border-radius: 0.35rem;
+}
+
+.btn-primary:hover {
+    background-color: #157347;
+    border-color: #0c4229;
+}
+
+.modal-contenido .footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    text-align: center;
+    border-top: 1px dashed #000;
+    padding-top: 10px;
+}

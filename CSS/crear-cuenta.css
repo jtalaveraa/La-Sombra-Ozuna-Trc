@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Outer Container */
+.outer-container {
+    border: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    
+    background-color: #000000;
+}
+
+.outer-container:hover {
+    border-color: green;
+    box-shadow: 0 0 15px green;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none; /* Oculto por defecto */
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+    width: 87%;
+    margin: 0 auto; 
+}
+
+.input-container input {
+    width: 80%;
+    padding: 8px 8px 8px 16px; 
+    border-radius: 8px; 
+    border: none;
+    font-size: 14px;
+}
+
+.input-container .toggle-password {
+    position: absolute;
+    right: 50px;
+    top: 55%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;  
+    height: 20px; 
+}
+
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: #2ecc71;
+}
+
+.btn-grey {
+    background-color: grey;
+    color: white;
+}
+
+.btn-grey:hover {
+    background-color: #7f8c8d;
+}
+
+.back {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.p-back {
+    padding-top: 10px;
+}
+
+
+
+.password-hint {
+    font-size: 10px;
+    color: rgb(163, 163, 163);
+    margin-top: 5px;
+    margin-right: 20%;
+    margin-bottom: -2%;
+    display: block;
+}
+
+
+
+@media (max-width: 600px) {
+    .outer-container {
+        width: 70%;
+        padding: 15px;
+    }
+
+    .container img {
+        width: 60%;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .form-group input,
+    .btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
