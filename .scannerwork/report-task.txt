@@ -1,0 +1,6 @@
+projectKey=Integradora---La-Sombra-TRC
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=Integradora---La-Sombra-TRC
+ceTaskId=0c4211d7-b3cb-4c2c-9dcb-c730b7ce8624
+ceTaskUrl=http://localhost:9000/api/ce/task?id=0c4211d7-b3cb-4c2c-9dcb-c730b7ce8624
