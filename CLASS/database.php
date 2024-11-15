@@ -1,9 +1,5 @@
 <?php
-class Database
-{  
-    // (S) RESPONSABILIDAD ÚNICA
-    // (0) ABIERTO-CERRADO
-
+class Database{
     private $PDOlOCAL; // Si pones esta variable en null se cierra
     private $user = 'root';
     private $password = '';
